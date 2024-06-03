@@ -5,15 +5,16 @@
 .app__header-h1 {
     font-family: var(--font-base);
     color: var(--color-golden);
-    font-weight: 700;
-    letter-spacing: 0.04em;
+    font-weight: 600;
+    letter-spacing: 0.03em;
     text-transform: capitalize;
     line-height: 117px;
-    font-size: 90px;
+    font-size: 80px;
 }
 
 .app__header-img img {
     width: 80%;
+    
 }
 
 @media screen and (min-width: 2000px) {

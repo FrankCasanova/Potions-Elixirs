@@ -70,7 +70,7 @@
 }
 
 .app__gallery-images_card:hover img {
-    opacity: 0.35;
+    scale : 1.1;
 }
 
 .app__gallery-images_arrows {

@@ -2,80 +2,90 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Healing Draught',
+    price: '20 gold coins',
+    tags: 'Mandrake root, unicorn tears, powdered dragon scale',
+    buff: 'Heals wounds and restores vitality'
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Invisibility Potion',
+    price: '50 gold coins',
+    tags: 'Shadow essence, ghost orchid petals, moonlight dew',
+    buff: 'Grants invisibility for up to one hour'
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Love Potion',
+    price: '30 gold coins',
+    tags: 'Rose petals, mermaid scales, enchanted stardust',
+    buff: 'Inspires affection and attraction'
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Strength Tonic',
+    price: '25 gold coins',
+    tags: "Ogre's blood, titan's muscle fiber, phoenix feather",
+    buff: 'Temporarily boosts physical strength'
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Truth Serum',
+    price: '40 gold coins',
+    tags: 'Silver tongue herb, essence of honesty, dragonfly wings',
+    buff: 'Compels the drinker to speak the truth'
   },
 ];
 
 const cocktails = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Elixir of Eternal Youth',
+    price: '100 gold coins',
+    tags: 'Fountain of youth water, elven fruit, golden apple essence',
+    buff: 'Slows aging and restores youthful appearance'
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Elixir of Wisdom',
+    price: '70 gold coins',
+    tags: "Sage leaf, owl feather, philosopher's stone dust",
+    buff: 'Enhances wisdom and mental clarity'
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Elixir of Night Vision',
+    price: '35 gold coins',
+    tags: "Bat's eye, cat's whiskers, nocturnal essence",
+    buff: 'Grants the ability to see in the dark'
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Elixir of Fire Resistance',
+    price: '45 gold coins',
+    tags: "Salamander scale, fire blossom, lava crystal",
+    buff: 'Protects against fire and heat'
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Elixir of Flight',
+    price: '60 gold coins',
+    tags: 'Griffin feather, air essence, cloudberry',
+    buff: 'Grants the ability to fly for a short period'
   },
 ];
 
 const awards = [
   {
     imgUrl: images.award02,
-    title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Alchemist's Excellence Award",
+    subtitle: 'Recognized for our unparalleled mastery in potion crafting and commitment to preserving ancient magical traditions.',
   },
   {
     imgUrl: images.award01,
-    title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: "Enchanter’s Choice",
+    subtitle: 'Honored by the Wizardry Guild for our innovative and potent elixirs that have become essential in the magical community.',
   },
   {
     imgUrl: images.award05,
-    title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Arcane Arts Distinction',
+    subtitle: 'Awarded for our exceptional contribution to the field of alchemy, blending science and sorcery in perfect harmony.',
   },
   {
     imgUrl: images.award03,
-    title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    title: 'Master Potion Brewer',
+    subtitle: 'Celebrated for our meticulous attention to detail and the creation of potions that surpass all standards of magical excellence.',
   },
 ];
 

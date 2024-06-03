@@ -32,9 +32,11 @@
     flex-direction: column;
 }
 
-.app__specialMenu-menu_img {
+.app__specialMenu-menu_img{
     width: 410px;
     margin: 0 1.5rem;
+    /* mask-image: linear-gradient(rgb(0, 0, 0), transparent); */
+
 }
 
 .app__specialMenu-menu_img img {

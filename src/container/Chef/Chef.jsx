@@ -10,24 +10,22 @@ const cheff = () => (
       <img src={images.chef} alt="cheff img" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="cheff's Word" />
-      <h1 className="headtext__cormorant">What We Believe In</h1>
+      <SubHeading title="Alchemist's Word" />
+      <h1 className="headtext__cormorant">Alchemist's Wisdom</h1>
       <div className="app__cheff-content">
         <div className="app__cheff-content_quote">
           <img src={images.quote} alt="quote" />
           <p className="p__opensans">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          "By the power of ancient runes and mystical ingredients, we transform the ordinary into the extraordinary." 
           </p>
         </div>
         <p className="p__opensans">
-          auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. 
-          Nulla scelerisque, 
-          maecenas nec diam pellentesque amet nullam. 
+        In the heart of Huelva, where magic and tradition converge, we dedicate ourselves to the art of potion making. Each brew we craft is a blend of history, mystery, and unparalleled expertise. Our potions and elixirs are not merely products but embodiments of ancient wisdom and powerful enchantments.
           </p>
       </div>
       <div className="app__cheff-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">cheff & Founder</p>
+        <p>Eldrin Thalor</p>
+        <p className="p__opensans">Wizard Alchemist</p>
         <img src={images.sign} alt="sign" />
       </div>
     </div>

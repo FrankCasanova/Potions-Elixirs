@@ -2,7 +2,7 @@ import React from 'react';
 
 import './MenuItem.css';
 
-const MenuItem = ({ title, price, tags }) => (
+const MenuItem = ({ title, price, tags, buff }) => (
   <div className="app__menuitem">
     <div className="app__menuitem-head">
       <div className="app__menuitem-name">
@@ -18,7 +18,10 @@ const MenuItem = ({ title, price, tags }) => (
     </div>
 
     <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: '#AAA', marginTop: 10 }}>{tags}</p>
+      <p className="p__opensans" style={{ color: '#AAa', marginTop: 10 }}><strong>Ingredients:</strong> {tags}</p>
+    </div>
+    <div className="app__menuitem-sub">
+      <p className="p__opensans" style={{ color: '#AAA', marginTop: 10 }}><strong>Effects:</strong> {buff}</p>
     </div>
 
     

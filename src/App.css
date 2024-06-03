@@ -41,6 +41,7 @@
   align-items: center;
 
   margin-left: 2rem;
+  mask-image: linear-gradient(rgb(0, 0, 0), transparent);
 }
 
 .app__wrapper_img-reverse {
