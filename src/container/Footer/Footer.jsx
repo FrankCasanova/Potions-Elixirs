@@ -1,10 +1,13 @@
 import React from 'react';
-
+import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FooterOverlay, Newsletter } from '../../components';
+import { images } from '../../constants';
 import './footer.css';
 
 const Footer = () => (
-  <div>
-    Footer
+  <div className="app__footer section__padding">
+    <FooterOverlay />
+    <Newsletter />
   </div>
 );
 
