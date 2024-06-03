@@ -14,7 +14,7 @@
 }
 
 .app__navbar-logo img{
-    width: 150px;
+    width: 500px;
 }.app__navbar-links{
     flex: 1;
     display: flex;
@@ -124,6 +124,6 @@
         display: none;
     }
     .app__navbar-logo img{
-        width: 110px;
+        width: 210px;
     }
 }
