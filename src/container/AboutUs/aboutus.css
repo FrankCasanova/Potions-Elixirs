@@ -61,11 +61,12 @@
         flex-direction: column;
     }
     .app__aboutus-content_knife {
-        margin: 4rem 0;
+        margin: 0rem 0;
     }
 
     .app__aboutus-content_knife img {
         height: 320px;
+        margin: 0 0 0 0;
     }
 }
 
