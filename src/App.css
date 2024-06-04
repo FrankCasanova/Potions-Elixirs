@@ -1,5 +1,7 @@
+
+
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 1rem 2rem;
 }
 
 .flex__center {
@@ -150,7 +152,7 @@
 
 @media screen and (max-width: 650px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
   }
   
   .p__cormorant {

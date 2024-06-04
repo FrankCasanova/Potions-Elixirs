@@ -11,7 +11,8 @@ const App = () => {
   clickButton();
   playBackGroundMusic();
   
-  return (<div>
+  return (
+  <div>
     <Navbar />
     <Header />
     <AboutUs />

@@ -22,47 +22,11 @@
 a {
   color: unset;
   text-decoration: none;
-  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s 1 none;
 }
-h1 {
-  animation: text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s 1 none;
-}
-p {
-  animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s 1 none;
-}
-button {
-  animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s 1 none;
-}
-img{
-  animation: fade-in-top 4s linear 0s 1 normal none;
-}
-
 
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@keyframes fade-in-top {
-			
-  0% {
-    transform:translateY(-50px);
-    opacity:0;
-  }
-  100% {
-    transform:translateY(0);
-    opacity:1;
-  }
-}
-
-@keyframes text-focus-in {
-  0% {
-      filter: blur(12px);
-      opacity: 0;
-  }
-  100% {
-      filter: blur(0);
-      opacity: 1;
-  }
 }
 
 @-webkit-keyframes slide-bottom {
