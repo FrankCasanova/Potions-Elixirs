@@ -17,6 +17,7 @@
 .app__navbar-logo img{
     width: 500px;
     margin-left: 150px;
+    cursor: pointer;
 
     
 }.app__navbar-links{

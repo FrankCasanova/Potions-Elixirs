@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
     <div className="app__navbar-logo">
+    <a href="https://frankcasanova.pythonanywhere.com/" target="_blank">
       <img src={images.logo} alt="app logo" />
+    </a>
     </div>
     <ul className="app__navbar-links">
       <li className="p__opensans">
