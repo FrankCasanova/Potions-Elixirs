@@ -1,6 +1,7 @@
 {
   "name": "restaurant-app",
   "private": true,
+  "homepage": "https://github.com/FrankCasanova/restaurant-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1"
