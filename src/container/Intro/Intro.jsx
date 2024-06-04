@@ -13,6 +13,7 @@ const Intro = () => {
         ref={vidRef}
         src={meal2}
         type="video/mp4"
+        autoPlay
         loop
         controls={false}
         muted
@@ -23,13 +24,13 @@ const Intro = () => {
           onClick={() => {
             setPlayVideo(!playVideo);
             if (playVideo) {
-              vidRef.current.pause();
-            } else {
               vidRef.current.play();
+            } else {
+              vidRef.current.pause();
             }
           }}
         >
-          {playVideo ? (
+          {!playVideo ? (
             <BsPauseFill color="#fff" fontSize={30} />
           ) : (
             <BsFillPlayFill color="#fff" fontSize={30} />
