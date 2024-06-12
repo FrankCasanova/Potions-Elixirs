@@ -37,15 +37,24 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 410px;
+    width: 300px;
     margin: 0 1.5rem;
     /* mask-image: linear-gradient(rgb(0, 0, 0), transparent); */
+}
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .app__specialMenu-menu_img img {
     width: 65%;
     height: auto;
+    margin-bottom: 3rem;
 
 
 }

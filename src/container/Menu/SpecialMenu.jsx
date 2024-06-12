@@ -2,38 +2,57 @@ import React from 'react';
 import { images, data } from '../../constants';
 import { SubHeading, MenuItem } from '../../components';
 import './SpecialMenu.css';
+//import motion
+import { motion } from 'framer-motion';
+//import variants
+import { fadeIn } from '../../variants';
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
-    <div className="app__specialMenu-title">
+    <motion.div variants={fadeIn('down')} initial="hidden" whileInView={"show"} viewport={{ once: true }}
+    className="app__specialMenu-title">
       <SubHeading title="Our Magical Offerings" />
       <h1 className="headtext__cormorant">Discover Our Potions and Elixirs</h1>
-    </div>
+    </motion.div>
 
     <div className="app__specialMenu-menu">
-      <div className="app__specialMenu-menu_wine flex__center">
+      <motion.div 
+      variants={fadeIn('right')}
+      initial="hidden"
+      whileInView={"show12"}
+      viewport={{ once: true }}
+      className="app__specialMenu-menu_wine flex__center">
         <p className="app__specialMenu-menu_heading">Potions</p>
         <div className="app__specialMenu_menu_items">
           {data.wines.map((wine, index) => (
             <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} buff={wine.buff} />
           ))}
         </div>
-      </div>
+      </motion.div>
 
-      <div className="app__specialMenu-menu_img">
+      <motion.div 
+      variants={fadeIn('down')}
+      initial="hidden"
+      whileInView={"show2"}
+      viewport={{ once: true }}
+      className="app__specialMenu-menu_img">
         <img src={images.menu2} alt="menu img" />
         <img src={images.menu3} alt="menu img" />
+      </motion.div>
 
-      </div>
-
-      <div className="app__specialMenu-menu_cocktails flex__center">
+      <motion.div 
+      variants={fadeIn('left')}
+      initial="hidden"
+      whileInView={"show12"}
+      viewport={{ once: true }}
+      className="app__specialMenu-menu_cocktails flex__center">
         <p className="app__specialMenu-menu_heading">Elixirs</p>
         <div className="app__specialMenu_menu_items">
           {data.cocktails.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} buff={cocktail.buff} />
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
 
     {/* <div style={{ marginTop: 15 }}>

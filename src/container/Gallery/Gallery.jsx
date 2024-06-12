@@ -3,6 +3,10 @@ import { images } from '../../constants';
 
 import {BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs';
 import './gallery.css';
+// motion
+import { motion } from 'framer-motion';
+// import variants
+import { fadeIn } from '../../variants';
 
 const imageList = [
   images.gallery01,
@@ -28,7 +32,12 @@ const Gallery = () => {
 
   return (
     <div className="app__gallery flex__center">
-      <div className="app__gallery-content">
+      <motion.div 
+      variants={fadeIn('right')}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: true }}
+      className="app__gallery-content">
         {/* <SubHeading title="Instagram" /> */}
         <h1 className="headtext__cormorant">Photo Gallery</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Explore the Mystical World of Potion Crafting
@@ -37,8 +46,13 @@ Dive into our enchanted realm through our photo gallery. Witness the magical pro
 
 Feel the magic come alive as you explore our collection of enchanting photographs.</p>
         {/* <button type="button" className="custom__button">View More</button> */}
-      </div>
-      <div className="app__gallery-images">
+      </motion.div>
+      <motion.div 
+      variants={fadeIn('left')}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: true }}
+      className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {imageList.map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
@@ -51,7 +65,7 @@ Feel the magic come alive as you explore our collection of enchanting photograph
           <BsArrowLeftShort className="gallery__arrow-icon" onClick={() => scroll('left')} />
           <BsArrowRightShort className="gallery__arrow-icon" onClick={() => scroll('right')} />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

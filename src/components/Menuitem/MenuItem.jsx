@@ -17,11 +17,11 @@ const MenuItem = ({ title, price, tags, buff }) => (
 
     </div>
 
-    <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: '#AAa', marginTop: 10 }}><strong>Ingredients:</strong> {tags}</p>
+    <div className="app__menuitem-sub-ingredient">
+      <p className="p__opensans" ><strong>Ingredients:</strong> {tags}</p>
     </div>
-    <div className="app__menuitem-sub">
-      <p className="p__opensans" style={{ color: '#AAA', marginTop: 10 }}><strong>Effects:</strong> {buff}</p>
+    <div className="app__menuitem-sub-effect">
+      <p className="p__opensans" ><strong>Effects:</strong> {buff}</p>
     </div>
 
     
