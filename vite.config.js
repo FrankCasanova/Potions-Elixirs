@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/Potions-Elixirs/',
   build: {
-    outDir: 'build',
+
   }
 })
